@@ -1,0 +1,57 @@
+body {
+    overflow-x: hidden;
+}
+
+.jm-title-icon {
+    font-size: 9em;
+}
+
+
+.jm-background:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('../img/writing.jpg') center center !important;
+    opacity: .6;
+}
+
+.jm-background .intro-content {
+    color: #2c3e50;
+}
+
+ .jm-black-scroller a {
+     color: #2c3e50 !important;
+ }
+
+.jm-faq b {
+    display: block;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+}
+
+.jm-buttom-pad-right {
+    margin-right: 1.6em;
+}
+
+.jm-pad-down {
+    margin-bottom: 1.3em;
+}
+
+.jm-faq .jm-left {
+    text-align: left;
+    margin-bottom: 1.5em;
+}
+
+.jm-pad-bottom-1 {
+    margin-bottom: 2em;
+}
+
+.jm-nav-title {
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 0.03em 0.03em 0px #7f8c8d;
+}
