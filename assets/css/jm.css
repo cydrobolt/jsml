@@ -62,8 +62,9 @@ body {
 }
 
 .jm-inline-pp-btn {
-    padding-top: 1em;
     display: inline;
+
+    margin-left: 2em;
 }
 
 .jm-team-pic {

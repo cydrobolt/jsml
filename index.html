@@ -494,14 +494,16 @@
                 You may opt to submit your payment online rather than in person. Use the button below to send a payment to Jumpstart Mainline.
             </p>
 
-            <form name="_xclick" action="https://www.paypal.com/us/cgi-bin/webscr" method="post">
+            <form name="_xclick" action="https://www.paypal.com/us/cgi-bin/webscr" method="post" style="text-align:center;">
                 <input type="hidden" name="cmd" value="_xclick" />
                 <input type="hidden" name="business" value="jumpstartmainline@gmail.com" />
                 <input type="hidden" name="currency_code" value="USD" />
                 <input type="hidden" name="item_name" value="Jumpstart Mainline Payment" />
 
                 <input type="text" class="form-control jm-payment-form" name="amount" value="" placeholder="Enter Amount Here" />
-                <input type="image" class="jm-inline-pp-btn" src="http://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+
+                <input type="submit" class="btn btn-success btn-sm jm-inline-pp-btn" value="Pay with PayPal" />
+                <!-- <input type="image" class="jm-inline-pp-btn" src="http://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" /> -->
             </form>
         </div>
     </section>
@@ -616,7 +618,7 @@
             </div>
             <div class="row copyright">
                 <div class="col-lg-12">
-                    <p class="small">&copy; 2015 Jumpstart Mainline</p>
+                    <p class="small">&copy; 2016 Jumpstart Mainline</p>
                 </div>
             </div>
         </div>
