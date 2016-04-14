@@ -485,7 +485,21 @@
 
             <a target="_blank" class="btn btn-outline-dark page-scroll jm-buttom-pad-right" href="2016-flyer.pdf">2016 Flyer</a>
             <a target="_blank" class="btn btn-outline-dark page-scroll" href="registration-form-2016.pdf">2016 Registration Form</a>
+            <hr>
+            <h3>Online Payment</h3>
+            <p class="jm-pad-down">
+                You may opt to submit your payment online rather than in person. Use the button below to send a payment to Jumpstart Mainline.
+            </p>
 
+            <form name="_xclick" action="https://www.paypal.com/us/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_xclick" />
+                <input type="hidden" name="business" value="jumpstartmainline@gmail.com" />
+                <input type="hidden" name="currency_code" value="USD" />
+                <input type="hidden" name="item_name" value="Jumpstart Mainline Payment" />
+
+                <input type="text" class="form-control jm-payment-form" name="amount" value="" placeholder="Enter Amount Here" />
+                <input type="image" class="jm-inline-pp-btn" src="http://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+            </form>
         </div>
     </section>
 
