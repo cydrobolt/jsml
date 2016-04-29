@@ -70,3 +70,7 @@ body {
 .jm-team-pic {
     height: 12em;
 }
+
+.jm-il {
+    display: inline;
+}
