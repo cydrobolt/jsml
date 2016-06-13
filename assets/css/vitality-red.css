@@ -406,7 +406,7 @@ aside.cta-quote span.quote {
 }
 @media (min-width: 992px) {
   aside.cta-quote {
-    padding: 300px 0;
+    padding: 50px 0;
   }
   aside.cta-quote span.quote {
     font-size: 40px;
