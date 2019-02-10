@@ -639,8 +639,9 @@
             <h2>Forms</h2>
             <hr class="colored">
             <p class="jm-pad-down">
-                Ready to sign up for JumpStart? Thank you! but PLEASE WAIT! Our new flyer and registration form will be posted as soon as we have confirmed our 2019 dates. Please return the registration form
-                (balance is due by the week before your session begins) to secure a seat in the camp!
+                Ready to sign up for JumpStart? Thank you! but PLEASE WAIT! Our new flyer and registration form will be 
+                posted as soon as we have confirmed our 2019 dates. Please return the registration form
+                to secure a seat in the camp! (Balance is due by the week before your session begins.) 
             </p>
 
             <!-- hide until forms posted 2/10/19
@@ -650,24 +651,29 @@
             <hr>
             <h3>Online Payment</h3>
             <p class="jm-pad-down">
-                PayPal is available for you to submit the full camp fee of $525 only (not installments).
+                PayPal is available for you to submit the full camp fee of $550 only (not installments).
             </p>
             -->
             
+            <!-- old PayPal code?
             <form name="_xclick" action="https://www.paypal.com/us/cgi-bin/webscr" method="post" style="text-align:center;">
                 <input type="hidden" name="cmd" value="_xclick" />
                 <input type="hidden" name="business" value="jumpstartmainline@gmail.com" />
                 <input type="hidden" name="currency_code" value="USD" />
                 <input type="hidden" name="item_name" value="JumpStart Main Line Payment" />
-
-                <!-- hide the "enter amount" button
-                <input type="text" class="form-control jm-payment-form" name="amount" value="" placeholder="Enter Amount Here" />
-
-                <input type="submit" class="btn btn-success btn-sm jm-inline-pp-btn" value="Pay with PayPal" />
-                end the hidden section -->
-
             </form>
+            end hidden old code section -->
 
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="RHG6FGPHRVMAA">
+            <table style="text-align:center;">
+                <tr><td><input type="hidden" name="on0" value="Please tell us your session!">Please tell us your session!</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+            </table>
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            
             <p>
                 If you pay by PayPal, we'll confirm your payment by email; please be sure to send along the registration form as soon as possible -- that's how we'll know what session you want. Thanks!
             </p>
@@ -675,22 +681,14 @@
                 Note: $275 is non-refundable.
             </p>
 
+            <!-- very? old PayPal code 
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="RHG6FGPHRVMAA">
-            <table>
-                <tr><td><input type="hidden" name="on0" value="Please tell us your session!">Please tell us your session!</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-            </table>
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>
-            
-            <!-- old PayPal code <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="RHG6FGPHRVMAA">
                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form> -->
+            </form> 
+            end hidden old code section -->
 
 
         </div>
